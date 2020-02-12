@@ -15,7 +15,12 @@ document.querySelector('#green').addEventListener('click', updateColor)
 document.querySelector('#red').addEventListener('touchend', updateColor)
 document.querySelector('#blue').addEventListener('touchend', updateColor)
 document.querySelector('#green').addEventListener('touchend', updateColor)
-document.querySelector('footer').addEventListener('click', () => alert("hello"))
+
 
 // call the handler 
 updateColor() 
+
+function popup(){
+
+  alert("Hello!");
+}
